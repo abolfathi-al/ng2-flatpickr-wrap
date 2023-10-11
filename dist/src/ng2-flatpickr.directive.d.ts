@@ -249,7 +249,7 @@ export declare class Ng2FlatpickrDirective implements AfterViewInit, OnDestroy, 
     /** Allow access properties using index notation */
     [key: string]: any;
     constructor(parent: ControlContainer, ngControl: NgControl, element: ElementRef, renderer: Renderer2);
-    readonly control: FormControl;
+    get control(): FormControl;
     ngAfterViewInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
     ngOnDestroy(): void;

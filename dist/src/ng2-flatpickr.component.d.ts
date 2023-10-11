@@ -11,7 +11,8 @@ export declare class Ng2FlatpickrComponent implements AfterViewInit, ControlValu
     placeholder: string;
     addClass: string;
     setDate: string | Date;
-    tabindex: number;
+    get tabindex(): number;
+    set tabindex(ti: number);
     hideButton: boolean;
     writeValue(value: any): void;
     registerOnChange(fn: any): void;

@@ -1,11 +1,11 @@
+import flatpickr from 'flatpickr';
 import { __decorate } from 'tslib';
 import { ViewChild, Input, Component, forwardRef, EventEmitter, ElementRef, Renderer2, Output, HostListener, Directive, NgModule } from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlContainer, NgControl } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import 'flatpickr';
 
 if (typeof window !== 'undefined') {
-    require('flatpickr');
+    
 }
 var Ng2FlatpickrComponent = /** @class */ (function () {
     function Ng2FlatpickrComponent() {
@@ -488,4 +488,4 @@ var Ng2FlatpickrModule = /** @class */ (function () {
  */
 
 export { Ng2FlatpickrComponent, Ng2FlatpickrDirective, Ng2FlatpickrModule };
-//# sourceMappingURL=ng2-flatpickr.js.map
+//# sourceMappingURL=ng2-flatpickr-wrap.js.map
