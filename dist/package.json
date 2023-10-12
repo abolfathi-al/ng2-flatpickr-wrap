@@ -1,6 +1,6 @@
 {
   "name": "ng2-flatpickr-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular 2+ wrapper for flatpickr-wrap",
   "main": "bundles/ng2-flatpickr-wrap.umd.js",
   "repository": {
@@ -16,16 +16,14 @@
   "peerDependencies": {
     "flatpickr-wrap": "^1.0.0"
   },
-  "module": "fesm5/ng2-flatpickr-wrap.js",
+  "module": "fesm2015/ng2-flatpickr-wrap.js",
   "es2015": "fesm2015/ng2-flatpickr-wrap.js",
-  "esm5": "esm5/ng2-flatpickr-wrap.js",
   "esm2015": "esm2015/ng2-flatpickr-wrap.js",
-  "fesm5": "fesm5/ng2-flatpickr-wrap.js",
   "fesm2015": "fesm2015/ng2-flatpickr-wrap.js",
   "typings": "ng2-flatpickr-wrap.d.ts",
   "metadata": "ng2-flatpickr-wrap.metadata.json",
   "sideEffects": false,
   "dependencies": {
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   }
 }

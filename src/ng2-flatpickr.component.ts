@@ -5,7 +5,7 @@ import { FlatpickrOptions } from './flatpickr-options.interface';
 declare var require: any;
 
 if (typeof window !== 'undefined') {
-	require('flatpickr');
+	require('flatpickr-wrap');
 }
 
 @Component({
